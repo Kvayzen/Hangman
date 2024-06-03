@@ -223,9 +223,9 @@ def play_game(word):
 
 while True:
     word=get_word()
-    print('Введите название игры "Висилица" или "выход", чтобы закончить:')
+    print('Введите название игры "Виселица" или "выход", чтобы закончить:')
     user_input = input().lower()
-    if user_input == 'висилица':
+    if user_input == 'виселица':
         play_game(word)
     elif user_input == 'выход':
         break
